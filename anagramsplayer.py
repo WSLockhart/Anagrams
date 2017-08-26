@@ -15,13 +15,14 @@ class Word:
         self.mystring = chstring
         self.length = len(chstring)
         self.codenum = encode(chstring)
+        #generate list of all possible ways it can be stolen
         self.mysteals = find_steals(chstring)
         #set of the individual characters
         self.mylist = [ch for ch in chstring]
-        # keep track of the word's evolution
+        #keep track of the word's evolution
         self.myhistory = [chstring]
 
-    # history goes present-->future. So 1st entry is the word itself
+    # history goes present-->past. So 1st entry is the word itself
     def addhistory(self,string):
         self.myhistory.append(string)
 
