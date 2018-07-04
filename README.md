@@ -1,6 +1,6 @@
 # ANAGRAMS
 
-A program that plays a solitaire game of *Anagrams*. This is a really fun word game you can play in person with any number of players (3-4 is best). 
+A program that plays a solitaire game of *Anagrams*, a fun word game you can play in person with any number of players. 
 
 
 ## The Game:
