@@ -16,7 +16,7 @@ The game ends when all the tiles are flipped up and nobody sees any more words o
 
 ## The Code:
 
-There are two scripts here: anagrams.py and anagramsplayer.py. The former is simply a search for all possible steals of a given word that you input. The latter is the main program, a perfect 1-person anagrams player. The player uses a 5-letter minimum. 
+There are two scripts here: anagrams.py and anagramsplayer.py. The former executes a search for all possible steals of a given word that you input. The latter is the main program, a perfect 1-person anagrams player. The player uses a 5-letter minimum. 
 
 tiles_scrabble.txt is the set of tiles used in the game (which you could of course cutsomize). 
 engmix_84k.txt is a dictionary of 84,000 English words (including pluralizations, conjugations etc) that the program uses. 
