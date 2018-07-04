@@ -19,7 +19,12 @@ The game ends when all the tiles are flipped up and nobody sees any more words o
 There are two scripts here: anagrams.py and anagramsplayer.py. The former is simply a search for all possible steals of a given word that you input. The latter is the main program, a perfect 1-person anagrams player. Watch all the amazing steals it can make! 
 
 tiles_scrabble.txt is the set of tiles used in the game (which you could of course cutsomize). 
-
 engmix_84k.txt is a dictionary of 84,000 English words (including pluralizations, conjugations etc) that the program uses. 
+Make sure all these files are in the same directory. 
 
-Enjoy!
+To run the anagrams.py search, just navigate to the directory and type: "python anagrams.py" and then the word you want to look for. For example, "python anagrams.py cozy" returns:
+
+> 29 possible steals found for cozy: ['coenzyme', 'coenzymes', 'cognizably', 'cozily', 'crystallization', 'desynchronize', 'desynchronized', 'desynchronizes', 'desynchronizing', 'electrolyze', 'electrolyzed', 'electrolyzing', 'piezoelectricity', 'psychoanalyze', 'psychoanalyzed', 'psychoanalyzing', 'recognizably', 'synchronization', 'synchronize', 'synchronized', 'synchronizer', 'synchronizers', 'synchronizes', 'synchronizing', 'unrecognizably', 'unsynchronized', 'zoologically', 'zootechny', 'zygotic']
+
+To run the anagrams player, no input is required. Just type "python anagramsplayer.py" and let it rip! The order of the tiles is random, so every game will be different. Enjoy!
+
